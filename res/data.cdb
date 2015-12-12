@@ -1,0 +1,309 @@
+{
+	"sheets": [
+		{
+			"name": "plants",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id"
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "cost",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "passifDamages",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "commentaire",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "marguerite",
+					"cost": 100,
+					"commentaire": "+1% aux dégâts des clics",
+					"passifDamages": 1,
+					"name": "Marguerite"
+				},
+				{
+					"id": "rose",
+					"cost": 5000,
+					"commentaire": "+2% de dégats passifs",
+					"passifDamages": 10,
+					"name": "Rose"
+				},
+				{
+					"id": "tulipe",
+					"cost": 250000,
+					"commentaire": "-1% de temps des boss",
+					"passifDamages": 100,
+					"name": "Tulipe"
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": [
+		{
+			"name": "Effects",
+			"cases": [
+				{
+					"name": "Heal",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Damage",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Stun",
+					"args": [
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "SpeedUp",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "SpeedDown",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Weaken",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Evade",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Shield",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "GroupBuff",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "9:Stats"
+						},
+						{
+							"name": "Gain",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "StatGain",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "9:Stats"
+						},
+						{
+							"name": "Gain",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Drain",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Block",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "BlockAll",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "DamageShield",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						},
+						{
+							"name": "Time",
+							"typeStr": "4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stats",
+			"cases": [
+				{
+					"name": "HP",
+					"args": []
+				},
+				{
+					"name": "Power",
+					"args": []
+				},
+				{
+					"name": "Speed",
+					"args": []
+				},
+				{
+					"name": "Armor",
+					"args": []
+				},
+				{
+					"name": "Crit",
+					"args": []
+				},
+				{
+					"name": "DamageReduction",
+					"args": []
+				}
+			]
+		},
+		{
+			"name": "Parameters",
+			"cases": [
+				{
+					"name": "Value",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				},
+				{
+					"name": "Time",
+					"args": [
+						{
+							"name": "Value",
+							"typeStr": "4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Colors",
+			"cases": [
+				{
+					"name": "Blue",
+					"args": []
+				},
+				{
+					"name": "Green",
+					"args": []
+				},
+				{
+					"name": "Yellow",
+					"args": []
+				},
+				{
+					"name": "Red",
+					"args": []
+				},
+				{
+					"name": "Special",
+					"args": []
+				}
+			]
+		}
+	],
+	"compress": false
+}

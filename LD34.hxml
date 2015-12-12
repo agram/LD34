@@ -1,0 +1,15 @@
+-cp res
+-cp src
+-swf LD34.swf
+-swf-header 1104:720:60:FFFFFF
+--flash-strict
+-swf-version 11.8
+-main Game.hx
+-lib heaps
+-cp src/lib/heaps
+-lib air3
+-lib castle
+-lib hscript
+-D native-trace
+-D advanced-telemetry
+-dce full
